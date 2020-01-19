@@ -1,0 +1,10 @@
+prefix=/Users/lymphatus/Documents/Progetti/Node.js/libcaesium/build/mozjpeg
+exec_prefix=/Users/lymphatus/Documents/Progetti/Node.js/libcaesium/build/mozjpeg
+libdir=/Users/lymphatus/Documents/Progetti/Node.js/libcaesium/build/mozjpeg/lib
+includedir=/Users/lymphatus/Documents/Progetti/Node.js/libcaesium/build/mozjpeg/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 4.0.0
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

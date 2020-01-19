@@ -1,0 +1,29 @@
+{
+  "name": "libcaesium",
+  "version": "0.1.0",
+  "description": "Javascript wrapper of the libcaesium C library for compressing images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node lib/index.js",
+    "preinstall": "node lib/preinstall.js",
+    "install": "node lib/install.js"
+  },
+  "keywords": [
+    "image-compression",
+    "caesium",
+    "library",
+    "jpg",
+    "png"
+  ],
+  "author": "Matteo Paonessa",
+  "license": "MIT",
+  "repository": "",
+  "dependencies": {
+    "bin-build": "^3.0.0",
+    "git-clone": "^0.1.0",
+    "logalot": "^2.1.0",
+    "nodegit": "^0.26.4",
+    "os": "^0.1.1"
+  }
+}
