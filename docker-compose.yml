@@ -1,0 +1,12 @@
+version: '3.8'
+
+# Services
+services:
+  node18:
+    build: ./.docker/node18
+    image: node:18
+    working_dir: /usr/app
+    tty: true
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules
