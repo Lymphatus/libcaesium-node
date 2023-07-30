@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "cargo-cp-artifact": "^0.1"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0"
   }
 }

@@ -1,4 +1,4 @@
-const caesium = require('./build/caesium');
+const caesium = require('./build/caesium.node');
 
 let parameters = {
     jpeg: {
@@ -20,4 +20,5 @@ let parameters = {
     height: 0
 }
 
-caesium.compress('samples/input.jpg', 'samples/output.jpg', parameters);
+const result = caesium.compress('samples/input.jpg', 'samples/output.jpg', parameters);
+console.log(result);

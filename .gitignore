@@ -3,4 +3,4 @@ target
 samples
 **/.DS_Store
 npm-debug.log*
-build/*
+build
